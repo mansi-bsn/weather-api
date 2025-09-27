@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+button img{
+    width: 30px;
+    height: 30px;
+}
+
+.col img{
+    width: 60px;
+    height: 60px;
+}
+
+.error{
+    display: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    margin-top: 10px;
+}
